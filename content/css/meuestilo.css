@@ -1,0 +1,281 @@
+/* 
+    Created on : 04/06/2023, 16:19:01
+    Author     : Cândido Ucuahamba
+*/
+
+.corpo{
+    font-family: Trebuchet MS;
+    color: white !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gestor-form{
+    margin-top:50px;
+    padding: 20px;
+    background-color: rgba(0,0,1,0.8);
+    width: 596px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.out-form{
+    margin: auto;
+    margin-top:220px;
+    padding: 20px;
+    background-color: rgba(0,0,1,0.8);
+    width: 596px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.aluguer-form{
+    margin-top:200px;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: rgba(0,0,1,0.8);
+    width: 596px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.login-form{
+    margin:auto;
+    margin-bottom: -225px;
+    padding: 20px;
+    background-color: rgba(0,0,1,0.8);
+    width: 566px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.update-form{
+    margin:auto;
+    margin-top: 150px; 
+    padding: 20px;
+    background-color: rgba(0,0,1,0.8);
+    width: 500px;
+    height: 358px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.wallpaper{
+    background-image: url(../img/bg-form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.teste input{
+    margin-bottom: 2rem;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.gestor-body{
+    background-image: url(../img/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.imagem{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    align-self: center;
+}
+
+.caixa{
+    height: 35px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    color: rgba(13,110,253,.25);
+    background-color: var(--bs-body-bg);
+    border-color: #dee2e6;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(0, 0, 0);
+}
+
+.form-floating>label {
+    color: black !important;
+}
+
+.botao{
+    text-align: center;
+    border-radius: 50px;
+    height: 37px;
+    width: 241px;
+    margin-top: 8%;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    align-self: center;
+}
+
+.botao-a{
+    margin: auto;
+    align-items: center;
+}
+
+.alt{
+    background-color: white !important;
+}
+
+.alt:hover{
+    background-color: black !important; 
+}
+
+.caixa1{
+    margin-bottom: 10px;
+}
+
+.botao-r{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    height: 37px;
+    width: 241px;
+    margin-top: 5%;
+    padding: 5px;
+    background-color: white;
+}
+
+.botao-r:hover{
+    text-decoration: none;
+    color: white;
+    height: 34.5px;
+    width: 241px;
+    padding: 5px;
+    background-color: #000000 !important;
+    transition: all 1s;
+}
+.botao:hover{
+    border-radius: 50px;
+    height: 34.5px;
+    width: 241px;
+    padding: 5px;
+    color: white !important;
+    background-color: #000000 !important;
+    transition: all 1s;
+}
+
+.cartao{
+    flex-wrap: nowrap !important;
+}
+
+.form-caixa{
+    margin-top:900px;
+    padding: 20px;
+    background-color: rgba(0,0,1,0.8);
+    width: 596px;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.brand-img{
+    width: 15%;
+    height: 15%;
+}
+
+
+.div-form{
+    position: relative !important;
+    height: 0px !important;
+    width: 0px !important;
+    float: left !important;
+}
+
+.texto{
+    text-align: center;
+}
+
+.rodape{
+    margin-bottom: 100%;
+}
+
+.linha{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    border-top: white solid 2px;
+}
+
+input {
+    color: black !important;
+}
+
+
+select option {
+    color: black !important;
+}
+
+option:active{
+    color: black !important;
+
+}
+
+.navegaco{
+    height: 80px;
+    width: 100%;
+}
+
+.copy{
+    margin-top: 17%;
+    color: white !important;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: 12;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin: auto !important;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.active:hover{
+    color: #0d6efd !important;
+}
+
+.btn:hover{
+    color: #0d6efd !important;
+}
+
+.btn-outline-dark{
+    --bs-btn-hover-bg: white !important;
+}
+
+.dropdown-menu{
+    --bs-dropdown-link-active-bg: white !important;
+}
+
